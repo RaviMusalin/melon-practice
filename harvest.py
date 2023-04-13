@@ -2,7 +2,6 @@
 # Part 1   #
 ############
 
-
 class MelonType:
     """A species of melon at a melon farm."""
 
@@ -146,5 +145,3 @@ def get_sellability_report(melons):
             print(f"Harvested by {melon.harvested_by} from field{melon.harvested_from} (CAN BE SOLD)")
         else:
             print(f"Harvested by {melon.harvested_by} from field{melon.harvested_from} (CAN NOT BE SOLD)")
-    
-
